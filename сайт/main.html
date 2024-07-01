@@ -1,30 +1,37 @@
 <html>
 	<head>
 		<title>@.ksu</title>
+		
 		<link rel="stylesheet" type="text/css" href="stile.css"> 
+		
+		<script src="mouseFunction.js"></script>
 	</head>
 	<body style="background:#FFF8DC">
-		<div id="allInformation" style="background:#FFA07A; height:80px; width:1250px;
+		<div id="name" style="background:#FFA07A; height:80px; width:1250px;
 		top:10px; left:10px; position:absolute;">
 			<h1 align=left id="name">@.ksu<h1>
 		</div>
 		
 		<div id="menu" style="background:#FFA07A; height:300px; width:300px;
 		top:100px; left:10px; position:fixed;">
-			<a href="#begin"><p>&emsp;Начало</p></a>	
+			<a href="#begin" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)"><p>&emsp;Начало</p></a>	
 			
 			<hr width=100%>
 			
 			<ul>
-				<li> <a href="#preparing">Подготовка перед тем, как завести собаку</a>
-				<li> <a href="#main">Удовлетворение основных потребностей вашей собаки</a>
-				<li> <a href="#helth">Поддержание здоровья вашей собаки</a>
-				<li> <a href="#dressirovka">Дрессировка собаки</a>
+				<li> <a href="#preparing" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Подготовка перед тем, как завести собаку</a>
+				<li> <a href="#main" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Удовлетворение основных потребностей вашей собаки</a>
+				<li> <a href="#helth" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Поддержание здоровья вашей собаки</a>
+				<li> <a href="#dressirovka" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Дрессировка собаки</a>
 			</ul>
 			
 			<hr width=100%>
 			
-			<p>&emsp;Регистрация</p>
+			<a href="desk.html" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)"><p>&emsp;Доска почета</p></a>
+			
+			<hr width=100%>
+			
+			<p>&emsp;<a href="reg.html" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">Регистрация</a></p>
 		</div>
 		
 		<div id="allInformation" style="background:#FFA07A; height:7500px; width:800px;
